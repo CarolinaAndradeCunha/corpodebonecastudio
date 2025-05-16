@@ -27,6 +27,7 @@ header h1 {
 .foto-ruby-container {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-top: -40px;
   margin-bottom: 10px;
 }
@@ -36,8 +37,7 @@ header h1 {
   height: 120px;
   border-radius: 50%;
   border: 4px solid #ffe6f0;
-  margin: 10px auto;
-  display: block;
+  object-fit: cover;
 }
 
 body.dark-mode .foto-ruby {
